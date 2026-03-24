@@ -1,0 +1,27 @@
+# Secrets & credentials
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# dbt
+airbnb_project/target/
+airbnb_project/dbt_packages/
+airbnb_project/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

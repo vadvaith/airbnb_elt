@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_airbnb_listings
+    columns:
+      - name: id
+        tests:
+          - not_null
+          - unique
+      - name: latitude
+        tests:
+          - not_null
+      - name: longitude
+        tests:
+          - not_null
